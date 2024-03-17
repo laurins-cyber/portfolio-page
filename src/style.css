@@ -1,0 +1,5 @@
+html {
+scroll-snap-type: y;
+scroll-behavior: smooth;
+}
+
