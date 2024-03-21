@@ -1,16 +1,19 @@
 import Hero from "./Hero";
+import "./style.css";
+import Work from "./Work";
+import Portfolio from "./Portfolio";
 
 const Main = () => {
     return(
         <div>
-            <section>
+            <section id="home">
                 <Hero />
             </section> 
-            <section>
-                Portfolio
+            <section id="project">
+                <Portfolio />
             </section>
-            <section>
-                Experience
+            <section id="work">
+                <Work />
             </section> 
         </div>
     )

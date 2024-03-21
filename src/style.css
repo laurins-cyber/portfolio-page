@@ -1,5 +1,87 @@
-html {
-scroll-snap-type: y;
-scroll-behavior: smooth;
+*, html {
+    margin:0;
+    padding:0; 
+    scroll-snap-type: y;
+    scroll-behavior: smooth;
 }
+
+header {
+    height:20vh;
+    font-size: 42px;
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "MORF" 15,
+        "SHLN" 50;
+}
+
+body {
+    margin:0;
+    background-color: rgb(93, 191, 233);
+    font-family: "Gayathri", sans-serif;
+}
+
+html {
+    scroll-snap-type: y;
+}
+
+section {
+    height:100vh;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+}
+
+.photo {
+    height: 300px;
+    width: 240px;
+    float: right;
+}
+
+
+footer {
+    height:50vh;
+    font-size: 32px;
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "MORF" 15,
+        "SHLN" 50;
+}
+
+#navbtn {
+    position: fixed;
+    top:30%;
+    float: right;
+}
+
+button {
+    width: 100px;
+    height:100px;
+    word-wrap: break-word;
+    color:white;
+    background-color: transparent;
+    border: 4px dashed gold;
+    border-radius: 30%;
+    text-align: center;
+    padding: 10px 5px;
+    margin: 10px 50%;
+    font-family:"Pixelify Sans", sans-serif;
+    font-size: 24px;
+    display:block;
+}
+
+
+
+
 
