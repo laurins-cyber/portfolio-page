@@ -19,6 +19,7 @@ header {
 
 body {
     margin:0;
+    color:rgb(255, 0, 128);
     background-color: rgb(93, 191, 233);
     font-family: "Gayathri", sans-serif;
 }
@@ -38,12 +39,6 @@ h2 {
 
 p {
     font-size: 16px;
-}
-
-.photo {
-    height: 300px;
-    width: 240px;
-    float: right;
 }
 
 
@@ -66,18 +61,18 @@ footer {
 }
 
 button {
-    width: 100px;
-    height:100px;
+    width: 60px;
+    height:60px;
     word-wrap: break-word;
-    color:white;
+    color:gold;
     background-color: transparent;
     border: 4px dashed gold;
-    border-radius: 30%;
+    border-radius: 50%;
     text-align: center;
-    padding: 10px 5px;
+    padding: 5px;
     margin: 10px 50%;
     font-family:"Pixelify Sans", sans-serif;
-    font-size: 24px;
+    font-size: 16px;
     display:block;
 }
 

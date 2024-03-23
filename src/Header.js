@@ -1,10 +1,12 @@
 import hearderBackground from "./pic/hearderBackground.png";
 import styled from "styled-components";
+import Navbar from './Navbar';
 
 const Header = () => {
     return(
-        <header style={ {backgroundImage: `url(${hearderBackground})`}}>
+        <header id="header" style={ {backgroundImage: `url(${hearderBackground})`}}>
             <HomeIcon className="uniquifier">W.L.S</HomeIcon>
+            <Navbar/>
         </header>
     )
 }
