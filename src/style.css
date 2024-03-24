@@ -5,17 +5,6 @@
     scroll-behavior: smooth;
 }
 
-header {
-    height:20vh;
-    font-size: 42px;
-    font-family: "Honk", system-ui;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-        "MORF" 15,
-        "SHLN" 50;
-}
 
 body {
     margin:0;
@@ -27,10 +16,18 @@ body {
 html {
     scroll-snap-type: y;
 }
-
+/*each part*/
 section {
-    height:100vh;
+    height:auto;
 }
+
+.main {
+    display:flex;
+    flex-direction: column;
+    padding: 100px 0px;
+
+}
+
 
 h2 {
     text-align: center;
@@ -54,26 +51,14 @@ footer {
         "SHLN" 50;
 }
 
-#navbtn {
-    position: fixed;
-    top:30%;
-    float: right;
-}
 
-button {
-    width: 60px;
-    height:60px;
-    word-wrap: break-word;
-    color:gold;
-    background-color: transparent;
-    border: 4px dashed gold;
-    border-radius: 50%;
-    text-align: center;
-    padding: 5px;
-    margin: 10px 50%;
-    font-family:"Pixelify Sans", sans-serif;
-    font-size: 16px;
-    display:block;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+        padding:10px;
+        display:flex;
+        flex-direction: column;
+    }
 }
 
 

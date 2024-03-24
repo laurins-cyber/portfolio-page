@@ -1,4 +1,5 @@
 import { useState } from "react";
+import cathover from "./pic/cathover.png";
 
 
 const Contact = () => {
@@ -37,9 +38,11 @@ const Contact = () => {
                 onChange={(e)=> setContent(e.target.value)}/>
             </label>
         </form>
+        <img src={cathover} />
         </div>
     )
 }
+
 
 
 export default Contact;

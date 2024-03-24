@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import loadE from "./pic/loadE.jpg";
+import Project1 from "./pic/Project1.png";
 
 
 
@@ -10,14 +11,15 @@ const Portfolio = () => {
             <Board>Project Space</Board>
             <Container>
                 <Box>
-                    <a>
-                    <Title> Project 1</Title>
-                    <Proimg src={loadE}/>
+                    <a href="https://github.com/cb-wd-31/project-js-nyan-cat/pull/4">
+                    <Title> Project 1 - Game: Capybara</Title>
+                    <Proimg src={Project1}/>
                     </a>
                 </Box>
                 <Box>
-                    <a>
-                    <Title> Project 2</Title>
+                    <a href="https://github.com/laurins-cyber/react-useState/commit/ccb5ee5cc41e1a72e0eb7711d362d7eb0621b9e0">
+                    <Title> 
+                    Project 2 - Board Game: TicTacToe</Title>
                     <Proimg src={loadE}/>
                     </a>
                 </Box>

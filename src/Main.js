@@ -5,7 +5,7 @@ import Portfolio from "./Portfolio";
 
 const Main = () => {
     return(
-        <div>
+        <div className="main">
             <section id="home">
                 <Hero />
             </section> 
@@ -18,5 +18,7 @@ const Main = () => {
         </div>
     )
 }
+
+
 
 export default Main
