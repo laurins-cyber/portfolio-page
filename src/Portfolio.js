@@ -13,31 +13,31 @@ const Portfolio = () => {
                 <Box>
                     <a href="https://github.com/cb-wd-31/project-js-nyan-cat/pull/4">
                     <Title> Project 1 - Game: Capybara</Title>
-                    <Proimg src={Project1}/>
+                    
                     </a>
                 </Box>
                 <Box>
                     <a href="https://github.com/laurins-cyber/react-useState/commit/ccb5ee5cc41e1a72e0eb7711d362d7eb0621b9e0">
                     <Title> Project 2 - Board Game: TicTacToe</Title>
-                    <Proimg src={loadE}/>
+                    
                     </a>
                 </Box>
                 <Box>
                     <a href="https://github.com/laurins-cyber/FinalProject_Recipe">
                     <Title> Project 3 - Empty your Fridge - Recipe</Title>
-                    <Proimg src={loadE}/>
+                    
                     </a>
                 </Box>
                 <Box>
                     <a href="https://github.com/laurins-cyber/project-GROUP-e-commerce">
                     <Title> Project 4 - Ecommerce - Groupe work</Title>
-                    <Proimg src={loadE}/>
+                    
                     </a>
                 </Box>
                 <Box>
                     <a>
                     <Title> Project 5 - Pet Support - Currently working</Title>
-                    <Proimg src={loadE}/>
+                    
                     </a>
                 </Box>
             </Container>
